@@ -2,6 +2,8 @@
    border: 1px solid black;
 }
 
+/*Universal Styles */
+
 body {
   background-color: black;
   color: seashell;
@@ -20,6 +22,8 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+
+/*Header*/
 
 header {
   display: flex;
