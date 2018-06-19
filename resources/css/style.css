@@ -55,8 +55,6 @@ header nav {
 
 
 main {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   margin: 0;
 }
@@ -67,16 +65,15 @@ main {
 .main-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   height: 700px;
   padding: 70px;
 }
 
-.content {
+.mission .content {
   display: block;
   margin: 0 auto;
   width: 100%;
-  height: 110px;
+  height: 120px;
   margin-top: 300px;
   background-color: black;
 }
@@ -88,18 +85,40 @@ main {
 
 }
 
-h2 h4 {
+.content h2 h4 {
+ display: block;
+  padding-top: 10px;
 
 }
 
+
+/*Second Container */
+
 .second-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
   height: 700px;
 }
 
 .featured-tea {
+
+}
+
+/*Third Container */
+
+.third-container {
+  display: flex;
+}
+
+
+.locations {
+  background-image: url("../images/img-locations-background.jpg)";
+  height: 500px;
+  width: 1200px;
+}
+
+
+
+.copyright {
 
 }
