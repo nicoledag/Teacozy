@@ -67,29 +67,27 @@ header nav {
 
 /*Mission Section */
 
-
-.test {
+.mission {
   height: 700px;
   width: 1200px;
   margin: auto;
-
+  padding-top: 70px;
 }
 
-.mission .content {
+.image {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.content {
   display: block;
-  margin: 0 auto;
-  height: 120px;
+  height: 100px;
   width: 1200px;
   margin-top: 225px;
   background-color: black;
 }
 
-
-.mission {
-  background-image: url("../images/img-mission-background.jpg");
-  padding: 70px;
-  height: 650px;
-}
 
 
 
@@ -133,9 +131,12 @@ header nav {
   height: 200px;
   background-color: black;
   margin-right: 20px;
+  margin-top: 15px;
 }
 
-
+footer {
+  padding-top: 150px;
+}
 
 footer .copy {
   text-align: left;
